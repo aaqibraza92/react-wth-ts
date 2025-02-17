@@ -77,6 +77,36 @@ const genericFunc=<T extends number,U extends number>(a:T,b:U):any=>{
 console.log(currentDateTime.getFullYear()+":"+currentDateTime.getMinutes());
 
 
+interface User {
+  name: string;
+  age: number;
+  class: number[];
+}
+interface User2 {
+  name: string;
+  email: string;
+}
+const mixedArray: (string | User | string[] | {name: string; email: string}[])[] = [
+  "Admin",
+  ["aaqib","jawed"],
+  [
+    {
+      name: "aaqib",
+      email: "aaqib@gmail.com"
+    },
+    {
+      name: "aaqib2",
+      email: "aaqib2@gmail.com"
+    }
+  ],
+  { name: "John", age: 30,class: [1,2,3] },
+  "Guest",
+  { name: "Jane", age: 25, class:[] }
+];
+
+console.log(mixedArray);
+
+
   return (
     <>
     
