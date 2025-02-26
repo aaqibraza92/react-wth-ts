@@ -2,10 +2,13 @@ import React from 'react';
 import logo from './logo.svg';
 import './App.css';
 import Home from './pages/Home';
+import Header from './components/Header';
+import Footer from './components/Footer';
 
 function App() {
   return (
     <div className="App">
+      <Header/>
        <h2>
         Hello
       </h2>
@@ -24,6 +27,7 @@ function App() {
         </a>
       </header>
      <Home/>
+     <Footer/>
     </div>
   );
 }
