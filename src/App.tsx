@@ -1,7 +1,6 @@
 import React from 'react';
-import logo from './logo.svg';
 import './App.css';
-
+import "./assets/css/global.module.css";
 
 
 import Header from './components/Header';
@@ -40,3 +39,4 @@ function App() {
 }
 
 export default App;
+
