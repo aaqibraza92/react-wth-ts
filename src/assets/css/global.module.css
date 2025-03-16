@@ -1,3 +1,6 @@
 :global(body){
     font-family: "Montserrat", sans-serif;
 }
+:global(div){
+    color: #000;
+}
