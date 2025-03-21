@@ -8,6 +8,7 @@ import ListItem from '@mui/material/ListItem';
 import ListItemButton from '@mui/material/ListItemButton';
 import ListItemText from '@mui/material/ListItemText';
 import headerStyle from "../assets/css/header.module.css";
+import HeaderDesktop from "./HeaderDesktop";
 
 const Header: React.FC = () => {
   const [open, setOpen] = useState<boolean>(false);
@@ -20,6 +21,7 @@ const Header: React.FC = () => {
       <Box className={headerStyle.topHeader}>
         Free Shipping All Over The World
       </Box>
+      <HeaderDesktop/>
       <Button onClick={toggleDrawer(true)}>Open drawer</Button>
       <Drawer open={open} onClose={toggleDrawer(false)}>
 
