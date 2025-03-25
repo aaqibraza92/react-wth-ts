@@ -1,4 +1,5 @@
 import React from 'react';
+import layout from "../assets/css/layout.module.css"
 
 function Home() {
   //union
@@ -30,9 +31,9 @@ const bioData: a & b={
   return (
     <>
     
-    <h2>
-      Hello
-    </h2>
+    <section>
+      <img className={layout.imgFluid} src={require("../assets/img/banner_home.jpg")} alt="" />
+    </section>
     
     </>
 
