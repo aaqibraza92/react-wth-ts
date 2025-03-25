@@ -17,9 +17,10 @@ const Home= React.lazy(()=>import('./pages/Home'));
 function App() {
   return (
     <div className="App">
+      <BrowserRouter>
       <Header/>
    
-   <BrowserRouter>
+   
    <AuthProvider>
    <Routes>
     <Route path='/' element={<Home/>} />
@@ -31,9 +32,10 @@ function App() {
    </Routes>
    </AuthProvider>
    
-   </BrowserRouter>
+   
      
      <Footer/>
+     </BrowserRouter>
     </div>
   );
 }

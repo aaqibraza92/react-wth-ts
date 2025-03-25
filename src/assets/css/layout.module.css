@@ -1,0 +1,28 @@
+.imgFluid {
+    max-width: 100%;
+}
+
+.dFlex {
+    display: flex;
+}
+
+.justifyContentCenter {
+    justify-content: center;
+}
+.justifyContentStart {
+    justify-content: start;
+}
+.justifyContentEnd {
+    justify-content: end;
+}
+
+.alignItemsCenter {
+    align-items: center;
+}
+
+.alignItemsEnd {
+    align-items: end;
+}
+.alignItemsTop {
+    align-items: top;
+}

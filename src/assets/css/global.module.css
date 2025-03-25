@@ -4,3 +4,7 @@
 :global(div){
     color: #000;
 }
+:global(a){
+    text-decoration: none;
+    color: #14344a;
+}
