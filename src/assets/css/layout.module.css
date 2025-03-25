@@ -6,13 +6,13 @@
     display: flex;
 }
 
-.justifyContentCenter {
+.alignCenter {
     justify-content: center;
 }
-.justifyContentStart {
+.alignLeft {
     justify-content: start;
 }
-.justifyContentEnd {
+.alignRight {
     justify-content: end;
 }
 
@@ -25,4 +25,7 @@
 }
 .alignItemsTop {
     align-items: top;
+}
+.center{
+    text-align: center;
 }

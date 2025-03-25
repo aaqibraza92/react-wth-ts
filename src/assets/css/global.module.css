@@ -1,5 +1,5 @@
 :global(body){
-    font-family: "Montserrat", sans-serif;
+    font-family: "Montserrat", sans-serif !important;
 }
 :global(div){
     color: #000;

@@ -23,7 +23,7 @@ const HeaderDesktop: React.FC = () => {
                 </Grid>
 
                 <Grid size={{ md: 4 }}>
-                    <Box sx={{ display: "flex" }} className={layout.justifyContentEnd}>
+                    <Box sx={{ display: "flex" }} className={layout.alignRight}>
                         <Button className="" variant="text" sx={buttonLink}>
                             {user}
                         </Button>
