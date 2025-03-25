@@ -24,7 +24,7 @@ const bioData: a & b={
 
 }
 
-console.log("bioData",bioData)
+// console.log("bioData",bioData)
 
 
   return (
